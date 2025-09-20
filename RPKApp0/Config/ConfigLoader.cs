@@ -11,16 +11,16 @@ namespace RefactoringExample.Config
             try
             {
                 #if NETFRAMEWORK
-                    string host = ConfigurationManager.AppSettings["host"] ?? "localhost";
-                    string port = ConfigurationManager.AppSettings["port"] ?? "8080";
+                    string host = ConfigurationManager.AppSettings["Host"] ?? "localhost";
+                    string port = ConfigurationManager.AppSettings["Port"] ?? "8080";
                     return (host, port);
                 #else
-                    var config = new ConfigurationBuilder()
-                        .AddJsonFile("appsettings.json", optional: true)
+                    IConfiguration config = new ConfigurationBuilder()
+                        .AddJsonFile("appsettings.json", optional: false)
                         .Build();
 
                     string host = config["Server:Host"] ?? "localhost";
-                    string port = config["Server:Port"] ?? "8080";
+                    string port = config["Server:Port"] ?? "8000";
                     return (host, port);
                 #endif
             }
