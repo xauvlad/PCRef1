@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RPKApp0", "RPKApp0.csproj", "{9F27EFBB-5AC5-4572-B009-BB09C760A2E9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RPKApp0.Tests", "RPKApp0.Tests\RPKApp0.Tests.csproj", "{758AB6B1-C7E6-482E-AD5D-B9DAB26FE3EE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9F27EFBB-5AC5-4572-B009-BB09C760A2E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F27EFBB-5AC5-4572-B009-BB09C760A2E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F27EFBB-5AC5-4572-B009-BB09C760A2E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F27EFBB-5AC5-4572-B009-BB09C760A2E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{758AB6B1-C7E6-482E-AD5D-B9DAB26FE3EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{758AB6B1-C7E6-482E-AD5D-B9DAB26FE3EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{758AB6B1-C7E6-482E-AD5D-B9DAB26FE3EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{758AB6B1-C7E6-482E-AD5D-B9DAB26FE3EE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
